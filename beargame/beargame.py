@@ -3,7 +3,7 @@
    The Bear Game"""
 
 def main():
-
+    """ Code at runetime """
     print("Hey! Ready to play? First, tell me a little about yourself.")
 
     name = input("First, what's your name?")
@@ -11,12 +11,14 @@ def main():
 
     age = int(input("Next, how old are you? "))
 
+    # Calculate how old?!?
     if age >= 27:
         print("OMG! {0}, you're old as dirt.".format(name))
     elif age <= 25:
         print("You're a youngin. {0}.".format(name))
     else:
-        print("Hey, {0}! Me too!".format(name))
+        print("Enter a number silly")
+   
     print("Okay, let's set the stage. You're walking through a dense forest \n" "when suddenly you happen upon a bear.")
 
     bearChoice = input("What do you do? run, cry or fight? ")
