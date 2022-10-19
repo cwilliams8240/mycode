@@ -28,12 +28,5 @@ def main():
     else:
         print("I don't thik that was an option. I'll let you try again.")
 
-    bearChoice = input("What do you do? run or fight? ")
-    
-    if bearChoice == "run":
-        print("Smart choice. That bear would have ripped you apart. You win the game!")
-    elif bearChoice == "fight":
-        print("Well, that was dumb...You're dead!")
-
 main()
 
