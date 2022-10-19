@@ -19,14 +19,16 @@ def main():
         print("Hey, {0}! Me too!".format(name))
     print("Okay, let's set the stage. You're walking through a dense forest \n" "when suddenly you happen upon a bear.")
 
-    bearChoice = input("What do you do? run or fight? ")
+    bearChoice = input("What do you do? run, cry or fight? ")
 
     if bearChoice == "run":
         print("Smart choice. That bear would have ripped you apart. You win the game!")
+    elif bearChoice == "cry":
+        print("Well, that doesn't help...You're dead!")
     elif bearChoice == "fight":
         print("Well, that was dumb...You're dead!")
     else:
-        print("I don't thik that was an option. I'll let you try again.")
+        print("I don't think that was an option. I'll let you try again.")
 
 main()
 
